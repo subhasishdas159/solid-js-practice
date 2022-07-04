@@ -1,4 +1,6 @@
 import logo from './logo.svg';
+import Button from '@suid/material/Button';
+import Typography from '@suid/material/Typography';
 
 function App() {
   return (
@@ -8,14 +10,10 @@ function App() {
         <p class="text-3xl text-green-600">
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
-        <a
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Solid
-        </a>
-        <button class="btn">hello</button>
+        <Typography variant="h5" gutterBottom sx={{color: 'green'}}>
+          Edit <code>src/App.jsx</code> and save to reload.
+        </Typography>
+        <Button variant="contained">Hello World</Button>
       </header>
     </div>
   );
