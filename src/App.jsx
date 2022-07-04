@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import 'uno.css';
 
 function App() {
   return (
@@ -16,6 +15,7 @@ function App() {
         >
           Learn Solid
         </a>
+        <button class="btn">hello</button>
       </header>
     </div>
   );
