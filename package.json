@@ -19,6 +19,7 @@
   "dependencies": {
     "@suid/icons-material": "^0.2.5",
     "@suid/material": "^0.4.3",
+    "solid-app-router": "^0.4.1",
     "solid-js": "^1.4.2"
   }
 }
