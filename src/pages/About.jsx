@@ -1,9 +1,9 @@
-function About() {
+import Input from "../comp/Input";
+
+export default function About() {
   return (
     <div>
-      <h2 class="custom">About</h2>
+      <Input />
     </div>
-  )
+  );
 }
-
-export default About;

@@ -1,7 +1,7 @@
 /* @refresh reload */
 import { render } from 'solid-js/web';
 import { Router } from "solid-app-router";
-import 'uno.css'
+import "tailwindcss/tailwind.css";
 
 import './index.css';
 
